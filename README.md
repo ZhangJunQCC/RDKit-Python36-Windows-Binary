@@ -44,7 +44,7 @@ pip3 install numpy Pillow
 
 ## boost:
 
-8. In `C:\boost\boost\python`, find a file called `numpy.hpp`, copy it here and rename it as `numeric.hpp`. Ohterwise you may encounter an error latter as `cannot find C:\boost\boost\python\numeric.hpp`.
+8. In `C:\boost\boost\python`, find a file called `numpy.hpp`, copy it here and rename it as `numeric.hpp`. Ohterwise you may encounter an error latter as `cannot find C:\boost\boost\python\numeric.hpp`. See also [here](https://github.com/rdkit/rdkit/issues/1581).
 
 9. In `C:\boost\lib64-msvc-14.1`, you will find a lot of files like `boost_*-vc141-mt-1_65_1.dll` or `boost_-*-vc141-mt-1_65_1.lib`. While most of them can work with Python 3.6 and Visual Studio 2017, however, the files `boost_python3-1_65_1.*` are incorrect because they are *NOT* for Python 3 at all! Acutally, you can find this by the following command :
 ```
