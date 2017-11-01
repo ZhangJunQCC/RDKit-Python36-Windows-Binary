@@ -5,7 +5,7 @@ An unofficial binary of RDKit for Python3.6 and Windows.
 
 RDKit is an excellent collection of cheminformatics and machine-learning software written in C++ and Python. While the compilation of RDKit on Linux or OS X is relatively straightforward, that on Windows is much more difficult. Since the lattest version of RDKit does not have a binary for Python 3.6 and Windows, I have built one and put it here, so everyone can use it directly!
 
-# Get the RDKit binary for Python 3.6 and Windows: [HERE](sss)
+# Get the RDKit binary for Python 3.6 and Windows: [HERE](RDKit2017_09_1(Q32017)-Python36-Win-x64.part1.rar) and [HERE](RDKit2017_09_1(Q32017)-Python36-Win-x64.part2.rar)
 
 Now get Python 3.6. You can get it from [here](https://www.python.org/downloads/release/python-362/). Here the version is `3.6.2`. Install it. Install numpy and Pillow by: `pip3 install numpy Pillow`.
 
